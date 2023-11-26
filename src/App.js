@@ -3,7 +3,7 @@ import "./App.css";
 import MovieCard from "./MovieCard";
 function App() {
   const API_URL =
-    "https://api.themoviedb.org/3/movie/popular?api_key=df34659b47b67bafe6a31303c8ed1bca";
+    "https://api.themoviedb.org/3/discover/movie?api_key=df34659b47b67bafe6a31303c8ed1bca";
   const API_SEARCH =
     "https://api.themoviedb.org/3/search/movie?df34659b47b67bafe6a31303c8ed1bca&query=";
   const [movies, setMovies] = useState([]);

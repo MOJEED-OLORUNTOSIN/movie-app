@@ -17,6 +17,7 @@ const MovieCard = (props) => {
         <h2 className="title_overview">Overview</h2>
         <h3 className="overview_info">{props.overview}</h3>
       </div>
+      <div className="overlay"></div>
     </div>
   );
 };
